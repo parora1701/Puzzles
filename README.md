@@ -1,2 +1,2 @@
 # Puzzles
-This repository contains solutions to different java puzzles found on internet.
+This repository contains solutions to different java puzzles found on the internet.
