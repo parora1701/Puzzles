@@ -8,14 +8,18 @@ import arora.puneet.codility.lessons.l4_countingElements.FrogRiverOne;
 import arora.puneet.codility.lessons.l4_countingElements.MaxCounters;
 import arora.puneet.codility.lessons.l4_countingElements.MissingInteger;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Brackets;
+import arora.puneet.codility.lessons.l7_stacksAndQueues.Fish;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// 
 
+		//------------Test Lesson 7 Fish Puzzle-------------
+		Fish.test_solution();
+		
 		//------------Test Lesson 7 Brackets Puzzle-------------
-		Brackets.test_solution();
+		//Brackets.test_solution();
 		
 		//------------Test Lesson 2 Cyclic Rotation Puzzle-------------
 		//CyclicRotation.test_solution();
