@@ -44,14 +44,15 @@ Write an efficient algorithm for the following assumptions:
 public class BinaryGap {
 	
 	public static void test_solution() {
-		int N = 15;
+		int N = 15598765;
 		//1041 = 10000010001
 		//32 = 100000
 		//int[] A = {−1, −3};
 		
 		int output = solution(N);
-		
-		System.out.println(output);
+		System.out.println("input : " +N);
+		System.out.println("Binary representation of input is : " + Integer.toBinaryString(N));
+		System.out.println("Binary Gap is : " + output);
 	}
 	
 	public static int solution(int N) {
