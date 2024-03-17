@@ -1,6 +1,7 @@
 package arora.puneet.codility;
 
 import arora.puneet.codility.common.Utility;
+import arora.puneet.codility.exercises.e5_codingSkills.ParkingBill;
 import arora.puneet.codility.lessons.l1_iterations.BinaryGap;
 import arora.puneet.codility.lessons.l2_arrays.CyclicRotation;
 import arora.puneet.codility.lessons.l2_arrays.OddOccurrencesInArray;
@@ -31,7 +32,7 @@ public class Main {
 		//test_solution("binarygap");
 		//test_solution("passingcars");
 		Long startTime=System.currentTimeMillis();
-		OddOccurrencesInArray.test_solution();
+		ParkingBill.test_solution();
 		Long endTime=System.currentTimeMillis();
 		Long duration = endTime-startTime;
 		System.out.println("code run duration: "+ duration);
