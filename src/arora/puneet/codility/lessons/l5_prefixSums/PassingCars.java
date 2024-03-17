@@ -1,4 +1,4 @@
-package arora.puneet.codility.lessons.l3_prefixSums;
+package arora.puneet.codility.lessons.l5_prefixSums;
 
 import java.util.Arrays;
 

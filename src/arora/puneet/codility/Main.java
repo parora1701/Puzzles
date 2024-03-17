@@ -4,7 +4,7 @@ import arora.puneet.codility.common.Utility;
 import arora.puneet.codility.lessons.l1_iterations.BinaryGap;
 import arora.puneet.codility.lessons.l2_arrays.CyclicRotation;
 import arora.puneet.codility.lessons.l2_arrays.OddOccurrencesInArray;
-import arora.puneet.codility.lessons.l3_prefixSums.PassingCars;
+import arora.puneet.codility.lessons.l5_prefixSums.PassingCars;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Brackets;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Fish;
 
