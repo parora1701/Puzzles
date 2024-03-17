@@ -1,13 +1,17 @@
 package arora.puneet.codility;
 
+import arora.puneet.codility.common.Utility;
 import arora.puneet.codility.lessons.l1_iterations.BinaryGap;
 import arora.puneet.codility.lessons.l2_arrays.CyclicRotation;
+import arora.puneet.codility.lessons.l3_prefixSums.PassingCars;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Brackets;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Fish;
 
 public class Main {
 
 	public static void main(String[] args) {
+		
+
 		// 
 		//------------Test Lesson 7 Nesting Puzzle-------------
 		//Nesting.test_solution();
@@ -23,7 +27,13 @@ public class Main {
 		
 		//------------Test Lesson 1 Binary Gap Puzzle-------------
 		//BinaryGap.test_solution();
-		test_solution("binarygap");
+		//test_solution("binarygap");
+		//test_solution("passingcars");
+		Long startTime=System.currentTimeMillis();
+		PassingCars.test_solution();
+		Long endTime=System.currentTimeMillis();
+		Long duration = endTime-startTime;
+		System.out.println("code run duration: "+ duration);
 	}
 	
 	private static void test_solution(String input) {
@@ -46,6 +56,11 @@ public class Main {
 		}
 		case "fish": {
 			Fish.test_solution();
+			break;
+			//yield type;
+		}
+		case "passingCars": {
+			PassingCars.test_solution();
 			break;
 			//yield type;
 		}
