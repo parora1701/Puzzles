@@ -67,7 +67,7 @@ public class PassingCars {
 		//System.out.println(Utility.stringifyIntArray(A));
 		
 		
-		int output = solution1(A);
+		int output = solution(A);
 		
 		System.out.println(output);
 	}

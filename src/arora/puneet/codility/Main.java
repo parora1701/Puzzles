@@ -3,6 +3,7 @@ package arora.puneet.codility;
 import arora.puneet.codility.common.Utility;
 import arora.puneet.codility.lessons.l1_iterations.BinaryGap;
 import arora.puneet.codility.lessons.l2_arrays.CyclicRotation;
+import arora.puneet.codility.lessons.l2_arrays.OddOccurrencesInArray;
 import arora.puneet.codility.lessons.l3_prefixSums.PassingCars;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Brackets;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Fish;
@@ -30,7 +31,7 @@ public class Main {
 		//test_solution("binarygap");
 		//test_solution("passingcars");
 		Long startTime=System.currentTimeMillis();
-		PassingCars.test_solution();
+		OddOccurrencesInArray.test_solution();
 		Long endTime=System.currentTimeMillis();
 		Long duration = endTime-startTime;
 		System.out.println("code run duration: "+ duration);
