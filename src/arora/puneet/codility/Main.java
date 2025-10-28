@@ -1,6 +1,7 @@
 package arora.puneet.codility;
 
 import arora.puneet.codility.common.Utility;
+import arora.puneet.codility.exercises.e1_2015Contest.FloodDepth;
 import arora.puneet.codility.exercises.e5_codingSkills.ParkingBill;
 import arora.puneet.codility.lessons.l1_iterations.BinaryGap;
 import arora.puneet.codility.lessons.l2_arrays.CyclicRotation;
@@ -8,6 +9,7 @@ import arora.puneet.codility.lessons.l2_arrays.OddOccurrencesInArray;
 import arora.puneet.codility.lessons.l5_prefixSums.PassingCars;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Brackets;
 import arora.puneet.codility.lessons.l7_stacksAndQueues.Fish;
+import arora.puneet.selfLearning.dataStructure.HashMaps;
 
 public class Main {
 
@@ -32,7 +34,9 @@ public class Main {
 		//test_solution("binarygap");
 		//test_solution("passingcars");
 		Long startTime=System.currentTimeMillis();
-		ParkingBill.test_solution();
+		//ParkingBill.test_solution();
+		//FloodDepth.test_solution();
+		HashMaps.wordCounter("apples apples banana pear pear pear grapes banana");
 		Long endTime=System.currentTimeMillis();
 		Long duration = endTime-startTime;
 		System.out.println("code run duration: "+ duration);
