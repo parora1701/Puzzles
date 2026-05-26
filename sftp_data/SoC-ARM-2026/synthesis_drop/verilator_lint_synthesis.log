@@ -1,0 +1,3 @@
+# [DEMO-ONLY] SemiconOS Demo 1 Synthesis Drop Verilator lint fixture.
+%Warning-CDCRSTLOGIC: cpu_core.sv:47:9: CDC issue in cpu_core.clock_divider on net 'clk_div_out'; divided clock still crosses into cpu_core.alu without a synchronizer.
+%Warning-CDCRSTLOGIC: cpu_core.sv:96:11: CDC issue in cpu_core.alu on net 'alu_clk_en'; synthesis retiming moved the enable flop but did not add a synchronizer.

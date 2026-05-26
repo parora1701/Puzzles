@@ -1,0 +1,5 @@
+# [DEMO-ONLY] SemiconOS Demo 1 RTL Freeze Verilator lint fixture.
+%Warning-CDCRSTLOGIC: cpu_core.sv:47:9: CDC issue in cpu_core.clock_divider on net 'clk_div_out'; divided clock crosses into cpu_core.alu without a synchronizer.
+%Warning-CDCRSTLOGIC: cpu_core.sv:88:13: CDC issue in cpu_core.alu on net 'alu_clk_en'; enable generated in cpu_core.clock_divider is sampled by the ALU clock domain.
+%Warning-CDCRSTLOGIC: cpu_core.sv:123:5: Reset-domain crossing in cpu_core.reset_domain on net 'rst_sync_n'; reset release may be observed asynchronously.
+%Warning-UNOPTFLAT: cpu_core.sv:131:7: Feedback path in cpu_core.reset_domain involving signal 'rst_sync_n' prevents stable reset convergence analysis.

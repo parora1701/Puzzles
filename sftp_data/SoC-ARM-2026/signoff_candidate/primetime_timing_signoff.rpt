@@ -1,0 +1,289 @@
+# [DEMO-ONLY] SemiconOS Demo 1 Signoff Candidate PrimeTime timing fixture.
+# PrimeTime PX style timing report excerpt. Contains 47 violated setup paths.
+
+Report : timing
+Design : SoC-ARM-2026
+Version: PrimeTime S-2025.12-SP1
+Scenario: ss_0p72v_125c
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.420
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_pipe0_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.401
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_pipe1_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.396
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_pipe2_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.388
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_decode_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.377
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_execute_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.369
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_bypass_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.361
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/alu/alu_clk_en_result_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.354
+
+Startpoint: cpu_core/reset_domain/rst_sync_n_reg/Q
+Endpoint: cpu_core/alu/rst_sync_n_capture_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.346
+
+Startpoint: cpu_core/reset_domain/rst_sync_n_reg/Q
+Endpoint: cpu_core/alu/rst_sync_n_execute_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.338
+
+Startpoint: cpu_core/reset_domain/rst_sync_n_reg/Q
+Endpoint: cpu_core/alu/rst_sync_n_bypass_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.331
+
+Startpoint: cpu_core/reset_domain/rst_sync_n_reg/Q
+Endpoint: cpu_core/alu/rst_sync_n_result_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.326
+
+Startpoint: cpu_core/reset_domain/rst_sync_n_reg/Q
+Endpoint: cpu_core/alu/rst_sync_n_commit_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.319
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/issue_queue/dispatch_valid_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.312
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/issue_queue/dispatch_ready_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.306
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/issue_queue/dispatch_slot0_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.298
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/issue_queue/dispatch_slot1_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.291
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/issue_queue/dispatch_slot2_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.286
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/issue_queue/dispatch_slot3_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.279
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/execute_stage/mul_enable_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.273
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/execute_stage/div_enable_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.266
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/execute_stage/shift_enable_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.259
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/execute_stage/branch_enable_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.251
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/execute_stage/load_enable_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.246
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/execute_stage/store_enable_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.239
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/fetch_stage/fetch_hold_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.232
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/fetch_stage/fetch_valid_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.226
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/fetch_stage/fetch_redirect_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.219
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/decode_stage/decode_valid_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.211
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/decode_stage/decode_ready_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.204
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/decode_stage/decode_hold_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.198
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/register_file/write_enable_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.191
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/register_file/write_addr_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.185
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/register_file/write_data_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.178
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/register_file/read_addr_a_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.172
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/register_file/read_addr_b_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.166
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/writeback_stage/wb_valid_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.159
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/writeback_stage/wb_ready_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.153
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/writeback_stage/wb_data_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.148
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/writeback_stage/wb_addr_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.141
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/debug/debug_sample_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.134
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/debug/debug_trace_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.127
+
+Startpoint: cpu_core/reset_domain/rst_sync_n_reg/Q
+Endpoint: cpu_core/debug/debug_rst_sync_n_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.121
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/perf/perf_counter_en_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.114
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/perf/perf_counter_data_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.107
+
+Startpoint: cpu_core/alu/alu_clk_en_reg/Q
+Endpoint: cpu_core/perf/perf_event_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.101
+
+Startpoint: cpu_core/clock_divider/clk_div_out_reg/Q
+Endpoint: cpu_core/retire_stage/retire_valid_reg/D
+Path Group: core_clk
+Path Type: max
+slack (VIOLATED) -0.094
